@@ -10,7 +10,7 @@ X-Force IDE is a low-code, agent-as-a-service UI framework that enables you to c
 
 ## Guides
 
-[Getting Started Guide](https://x-force.notion.site/Introduction-to-X-Force-IDE-b92c434802de4df6a58c83fd5d292c33)
+[Starten met Cusmato Guide](https://x-force.notion.site/Introduction-to-X-Force-IDE-b92c434802de4df6a58c83fd5d292c33)
 
 [Examples](https://x-force.notion.site/Example-Workforces-fff4a8ee317c4e76b226fef321c098ba)
 

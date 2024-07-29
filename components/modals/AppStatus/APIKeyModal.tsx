@@ -24,7 +24,7 @@ const APIKeyModal: React.FC = () => {
       <div className="bg-gray-50 p-2">
         <div className="flex">
           <span className="font-bold uppercase">Provider</span>
-          <span className="text-gray-500 ml-2">OpenAI</span>
+          <span className="text-gray-500 ml-2">Cusmato AI</span>
         </div>
         <div className="mt-2">
           <p className="font-bold uppercase">Key</p>

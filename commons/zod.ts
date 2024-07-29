@@ -33,8 +33,8 @@ const GroupChat = z.object({
 const GPTAssistantAgent = z.object({
   variableName: VariableName,
   OAIId: z
-    .string({ required_error: 'The OpenAI Id of the assistant agent is required.' })
-    .min(1, { message: 'The OpenAI Id of the assistant agent is required.' }),
+    .string({ required_error: 'The Cusmato Id of the assistant agent is required.' })
+    .min(1, { message: 'The Cusmato Id of the assistant agent is required.' }),
 });
 const AssistantAgent = z.object({
   variableName: VariableName,

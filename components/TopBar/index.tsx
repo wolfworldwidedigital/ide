@@ -3,7 +3,7 @@ import { toPng } from 'html-to-image';
 import React from 'react';
 import { getRectOfNodes, getTransformForBounds, useReactFlow } from 'reactflow';
 
-import { EXAMPLES_URL, GETTING_STARTED_GUIDE_URL, GITHUB_URL } from '@/commons/constants';
+import { GETTING_STARTED_GUIDE_URL } from '@/commons/constants';
 import { ContextMenuItemType } from '@/commons/types';
 import ContextMenuModal from '@/components/modals/ContextMenu/ContextMenuModal';
 import ToastMessageModal from '@/components/modals/ToastMessageModal';
@@ -76,7 +76,7 @@ const TopBar: React.FC = () => {
   };
   const onClearGraph = () => {
     if (nodes) {
-      if (confirm('Your changes will be destroyed, are you sure you want to create new workstation?')) {
+      if (confirm('Alle wijzigingen worden ongedaan gemaakt. Weet je zeker dat je een nieuw werkstation wilt maken?')) {
         clearGraph();
       }
     }
@@ -105,9 +105,7 @@ const TopBar: React.FC = () => {
           <MenuItem name="File" onClick={onClickFile} />
         </div>
         <div className="flex">
-          <MenuItem name="Getting Started" onClick={() => window.open(GETTING_STARTED_GUIDE_URL, '_blank')} />
-          <MenuItem name="Examples" className="ml-2" onClick={() => window.open(EXAMPLES_URL, '_blank')} />
-          <MenuItem name="Contribute" className="ml-2" onClick={() => window.open(GITHUB_URL, '_blank')} />
+          <MenuItem name="Starten met Cusmato" onClick={() => window.open(GETTING_STARTED_GUIDE_URL, '_blank')} />
         </div>
       </div>
     </div>

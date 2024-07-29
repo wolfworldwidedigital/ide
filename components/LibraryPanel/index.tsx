@@ -61,7 +61,7 @@ const LibraryPanel = () => {
         },
         {
           id: 'n3',
-          name: 'GPTAssistantAgent',
+          name: 'CusmatoCopilots',
           onDrag: (event) => onDragStart(event, X_FORCE_NODES.GPT_ASSISTANT_AGENT),
           jsxElement: (
             <NodeSkeleton
@@ -72,7 +72,7 @@ const LibraryPanel = () => {
                     GPTAssistantAgent
                   </span>
                   <span>
-                    built on OpenAI’s assistant API, enables the integration of any OpenAI Assistant into your
+                    built on Cusmato assistant API, enables the integration of any Cusmato Assistant into your
                     workforce.
                   </span>
                 </div>

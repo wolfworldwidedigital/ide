@@ -49,8 +49,8 @@ const GPTAssistantAgent: React.FC<ReactFlowNodeProps> = (props) => {
             content={
               <DefaultContent
                 name="GPTAssistantAgent"
-                description="is an agent that leverages the OpenAI Assistant API for conversational capabilities."
-                docTeaser={`Agent Name: Name of the agent. (ex: my_gpt_assistant_agent_1)\n\nOpenAI ID: The id of the agent that you obtained from https://platform.openai.com/assistants. LLM: Any large language model provided by OpenAI for the agent to consume.`}
+                description="is an agent that leverages the Cusmato AI Assistant API for conversational capabilities."
+                docTeaser={`Agent Name: Name of the agent. (ex: my_gpt_assistant_agent_1)\n\nCusmato AI ID: The id of the agent that you obtained from https://platform.cusmato.app/assistants. LLM: Any large language model provided by Cusmato for the agent to consume.`}
               />
             }
           />
@@ -73,7 +73,7 @@ const GPTAssistantAgent: React.FC<ReactFlowNodeProps> = (props) => {
         <FieldSchema
           field={
             <InputField
-              label="OpenAI ID"
+              label="CusmatoAI ID"
               required
               onChange={onOAIIdChange}
               value={data?.OAIId}

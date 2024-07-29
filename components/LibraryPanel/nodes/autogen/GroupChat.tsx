@@ -49,7 +49,7 @@ const GroupChat: React.FC<ReactFlowNodeProps> = (props) => {
               <DefaultContent
                 name="GroupChat"
                 description="is designed to enable agents to collaborate with each other. All agents should be included in a GroupChat to facilitate their communication and teamwork."
-                docTeaser={`Group Name: Name of the group. (ex: group_chat, my_x_force_group, etc.)\n\nMax Rounds: The maximum rounds that the agents will iterate (default: 15).\n\nAgent Selection: the method for selecting the next speaker (default: "auto").\n• "auto": the next speaker is selected automatically by LLM.\n• "manual": the next speaker is selected manually by user input.\n• "random": the next speaker is selected randomly.\n• "round_robin": the next speaker is selected in a round robin fashion, i.e., iterating in the same order as provided in agents. LLM: Any large language model provided by OpenAI for the GroupChatManager to consume.`}
+                docTeaser={`Group Name: Name of the group. (ex: group_chat, my_x_force_group, etc.)\n\nMax Rounds: The maximum rounds that the agents will iterate (default: 15).\n\nAgent Selection: the method for selecting the next speaker (default: "auto").\n• "auto": the next speaker is selected automatically by LLM.\n• "manual": the next speaker is selected manually by user input.\n• "random": the next speaker is selected randomly.\n• "round_robin": the next speaker is selected in a round robin fashion, i.e., iterating in the same order as provided in agents. LLM: Any large language model provided by Cusmato for the GroupChatManager to consume.`}
               />
             }
           />

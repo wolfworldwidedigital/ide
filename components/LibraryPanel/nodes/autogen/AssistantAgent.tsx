@@ -45,7 +45,7 @@ const AssistantAgent: React.FC<ReactFlowNodeProps> = (props) => {
               <DefaultContent
                 name="AssistantAgent"
                 description="is a subclass of ConversableAgent configured with a default system message. The default system message is designed to solve a task with LLM, including suggesting python code blocks and debugging."
-                docTeaser={`Agent Name: Name of the agent. (ex: my_gpt_assistant_agent_1)\n\nSystem Message: A message for the ChatCompletion inference. LLM: Any large language model provided by OpenAI for the agent to consume.`}
+                docTeaser={`Agent Name: Name of the agent. (ex: my_gpt_assistant_agent_1)\n\nSystem Message: A message for the ChatCompletion inference. LLM: Any large language model provided by Cusmato for the agent to consume.`}
               />
             }
           />

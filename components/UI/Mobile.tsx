@@ -33,26 +33,24 @@ const MobilePanel = () => {
             unoptimized
           />
           <p className="text-bold text-2xl pt-6 text-center">
-            Create task specific agent workforces for your custom business logic using diagrams.
+            Creëer taakspecifieke agent workforces voor uw aangepaste bedrijfslogica met behulp van diagrammen.
           </p>
           <p className="font-normal pt-12 whitespace-pre-line text-center">
-            You can drag and drop agents from the &quot;Library&quot;, connect them whatever you like, give them an
-            initial task, export them as a Python Script and run it on your local machine.
-            {'\n\n'}
-            To learn more, follow our{' '}
+            Je kunt onze AI agenten bij Cusmato uit het &quot;zijmenu&quot; slepen, verbinden met de taken en tools
+            zoveel je maar wilt. Volg onze ontwikkeling op de voet,{' '}
             <span className="text-blue-500 cursor-pointer underline" onClick={onClickGettingStartedGuide}>
-              Getting Started
+              Beginnen met Cusmato
             </span>{' '}
-            guide.
+            gids.
             {'\n\n'}
-            We support enterprises by providing them Cloud Runs with our operating system build to run LLMs. Contact us
-            to learn more{' '}
-            <a className="text-blue-500 cursor-pointer underline" href="mailto:enterprise-support@x-force.ai">
-              enterprise-support@x-force.ai
+            We ondersteunen bedrijven door hen Cloud Runs te bieden met ons besturingssysteem dat is ontwikkeld om LLM
+            te ondersteunen.{' '}
+            <a className="text-blue-500 cursor-pointer underline" href="mailto:enterprise@cusmato.app">
+              enterprise@cusmato.app
             </a>
             .
             {/* {'\n\n'}
-            Learn more about X-Force at <span className="text-blue-500 cursor-pointer underline">x-force.ai/about</span>
+            Learn more about Cusmato <span className="text-blue-500 cursor-pointer underline">cusmato.app/about</span>
             ! */}
           </p>
           <Image
@@ -75,7 +73,7 @@ const MobilePanel = () => {
             <p className="text-xs pl-2">(you need to start with a computer!)</p>
           </div>
           <WelcomePanelButton
-            name={'Getting Started Guide'}
+            name={'Starten met Cusmato Guide'}
             className="whitespace-nowrap pt-2"
             onClick={onClickGettingStartedGuide}
           />
